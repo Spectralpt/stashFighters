@@ -1,0 +1,19 @@
+{
+  "name": "testing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --config config.prod.mjs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "terser": "^5.31.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  }
+}
